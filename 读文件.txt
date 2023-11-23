@@ -1,8 +1,0 @@
-#读取文件的方法
-def readfile(filename):
-    file_object = open(filename, 'r', encoding='UTF-8')
-    try:
-        all_text = file_object.read()
-    finally:
-        file_object.close()
-    return all_text
