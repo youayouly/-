@@ -25,7 +25,7 @@ git push origin main
 
 
 拉取远程仓库 覆盖本地文件
-git fetch origin
+git fetch origin 
 git reset --hard origin/main_1
 
 
