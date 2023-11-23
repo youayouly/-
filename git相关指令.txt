@@ -1,22 +1,17 @@
-初始化
+初始化和连接仓库
 git branch
 git checkout -b main
 
 git init
 git remote add origin https://github.com/youayouly/storage
 
-查看和转换
+查看和转换分支
 git branch
 git checkout main_1
 
-修改文件内容 不增加文件
-git add path/to/modified/file.txt
-git commit -m "Update file content"
-git push origin your_branch_name
 
-
-删除后只要中间这里就行
-增加
+增加和删除文件
+更新仓库
 git pull origin main
 git add .
 git commit -m "Your commit message"
@@ -28,19 +23,35 @@ git add .
 git commit -m "Remove example.txt"
 git push origin main
 
+
 拉取远程仓库 覆盖本地文件
 git fetch origin
 git reset --hard origin/main_1
 
+
+合并
+git checkout main
+git merge main_1
+git add .
+git commit -m "Merge main_1 branch into main"
+git push origin main
+
+错误1
+[分支合并的情况(意外)
 main_1推送到main
 先全部更新
 git pull origin main
 git fetch origin
 git checkout main
 git merge main_1 
-
 如果出现合并错误
 git merge --allow-unrelated-histories main_1
 手动更改
 git commit -m "Merge main_1 into main"  
-git push origin main 
+git push origin main]
+错误2
+文件传输分支main_1到main,；两个分支文件不同
+不同文件只能传一次使分支相同，再删除之前差异的文件
+进行二次推送,文件不会更新
+错误3
+传输的时候不要传超过100M大小的文件，总容量是200GB
