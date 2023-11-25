@@ -1,39 +1,7 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-      {
-        "label": "Git Add, Commit, Push",
-        "type": "shell",
-        "command": "git",
-        "args": [
-          "add",
-          "."
-        ],
-        "group": {
-          "kind": "build",
-          "isDefault": true
-        }
-      },
-      {
-        "label": "Git Commit",
-        "type": "shell",
-        "command": "git",
-        "args": [
-          "commit",
-          "-m",
-          "Your commit message"
-        ],
-        "group": "build"
-      },
-      {
-        "label": "Git Push",
-        "type": "shell",
-        "command": "git",
-        "args": [
-          "push"
-        ],
-        "group": "build"
-      }
-    ]
-  }
-  
+  "commands": [
+    {"command": "git add .", "description": "Add all changes"},
+    {"command": "git commit -m 'Your commit message'", "description": "Commit changes"},
+    {"command": "git push origin main", "description": "Push changes to remote"}
+  ]
+}
