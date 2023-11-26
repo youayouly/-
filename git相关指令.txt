@@ -55,5 +55,9 @@ git push origin main]
 进行二次推送,文件不会更新
 错误3
 传输的时候不要传超过100M大小的文件，总容量是200GB
-强制删除git checkout main_1
-git branch -D main 
+删除全部> git checkout main_1 git branch -D main
+或者从头开始,中间部分影响了开始
+git lfs install
+git lfs track "*.zip"   git add Xmind8 Update8.zip    
+git commit -m "添加Xmind8文件"
+git push origin main_1 
