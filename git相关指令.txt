@@ -55,3 +55,4 @@ git push origin main]
 进行二次推送,文件不会更新
 错误3
 传输的时候不要传超过100M大小的文件，总容量是200GB
+删除全部> git checkout main_1 git branch -D main
