@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    {% if title %}
+    <title>{{title}}</title>
+    {% else %}
+    <title>Welcome to my site</title>
+    {% endif %}
+</head>
+
+<body>
+你好,{{user}}
+我的信息:{{info.name}}{{info.age}}
+
+<br>
+我的朋友
+{% for item in friends %}
+姓名:{{f.name}}
+年龄:{{f.age}}<br>
+{% endfor %}
+
+
+</body>
+</html>
