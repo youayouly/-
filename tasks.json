@@ -1,0 +1,8 @@
+{
+  "commands": [
+    {"command": "git add .", "description": "Add all changes"},
+    {"command": "git commit -m 'Your commit message'", "description": "Commit changes"},
+    {"command": "git push origin main_1", "description": "Push changes to remote"}
+  ]
+}
+
