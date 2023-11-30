@@ -1,11 +1,3 @@
-from flask import Flask, render_template
-
-app = Flask(__name__)
-
-@app.route('/')
-def test():
-    u = {'name': '张三', 'age': 20}
-    return render_template('index.html', title='我的标题', user="张三", info=u)
-
-if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=8085, debug=True)
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d642f4ffa45e40271c04cb64eea87515c3996d6ee30a9b939c13b1ee3472404
+size 309

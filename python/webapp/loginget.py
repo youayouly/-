@@ -1,20 +1,3 @@
-from flask import Flask, render_template,request
-
-app = Flask(__name__)
-
-@app.route('/')
-def test():
-    u = {'name': '张三', 'age': 20}
-    return render_template('loginget.html')
-
-@app.route('/loginget', methods=['GET'])
-def logintest():
-    name=request.args.get['username']
-    pwd=request.args.get['password']
-    if name == 'admin' and pwd == '123':
-        return "登录成功"
-    else:
-        return render_template('loginget.html')    
-
-if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=8085, debug=True)
+version https://git-lfs.github.com/spec/v1
+oid sha256:da011e93d08cb3be4262467d838ef659a7779b9e96aa2db50f9d81d390ba0084
+size 551
