@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<annotation>
+  <filename>1663.jpg</filename>
+  <object_num>1</object_num>
+  <size>
+    <width>320</width>
+    <height>240</height>
+  </size>
+  <object>
+    <name>corn</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>17</xmin>
+      <ymin>20</ymin>
+      <xmax>61</xmax>
+      <ymax>81</ymax>
+    </bndbox>
+  </object>
+</annotation>

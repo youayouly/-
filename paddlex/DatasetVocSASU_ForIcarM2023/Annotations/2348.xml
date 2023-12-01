@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<annotation>
+  <filename>2348.jpg</filename>
+  <object_num>1</object_num>
+  <size>
+    <width>320</width>
+    <height>240</height>
+  </size>
+  <object>
+    <name>bridge</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>208</xmin>
+      <ymin>9</ymin>
+      <xmax>242</xmax>
+      <ymax>32</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<annotation>
+  <filename>3375.jpg</filename>
+  <object_num>1</object_num>
+  <size>
+    <width>320</width>
+    <height>240</height>
+  </size>
+  <object>
+    <name>tractor</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>0</xmin>
+      <ymin>48</ymin>
+      <xmax>56</xmax>
+      <ymax>111</ymax>
+    </bndbox>
+  </object>
+</annotation>
